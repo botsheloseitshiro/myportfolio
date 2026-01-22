@@ -1,30 +1,5 @@
-// Theme Toggle Functionality
-const themeToggle = document.getElementById('themeToggle');
-const body = document.body;
-const themeIcon = themeToggle.querySelector('i');
-
-// Check for saved theme preference or default to light mode
-const currentTheme = localStorage.getItem('theme') || 'light';
-body.setAttribute('data-theme', currentTheme);
-updateThemeIcon(currentTheme);
-
-// Theme toggle event listener
-themeToggle.addEventListener('click', () => {
-    const currentTheme = body.getAttribute('data-theme');
-    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-    
-    body.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    updateThemeIcon(newTheme);
-});
-
-function updateThemeIcon(theme) {
-    if (theme === 'dark') {
-        themeIcon.className = 'fas fa-sun';
-    } else {
-        themeIcon.className = 'fas fa-moon';
-    }
-}
+// Auto-update year in footer
+document.getElementById('year').textContent = new Date().getFullYear();
 
 // Mobile Navigation
 const hamburger = document.querySelector('.hamburger');
@@ -62,14 +37,8 @@ window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 100) {
         navbar.style.background = 'rgba(255, 255, 255, 0.98)';
-        if (body.getAttribute('data-theme') === 'dark') {
-            navbar.style.background = 'rgba(17, 24, 39, 0.98)';
-        }
     } else {
         navbar.style.background = 'rgba(255, 255, 255, 0.95)';
-        if (body.getAttribute('data-theme') === 'dark') {
-            navbar.style.background = 'rgba(17, 24, 39, 0.95)';
-        }
     }
 });
 

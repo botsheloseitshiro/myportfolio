@@ -11,7 +11,7 @@ const PORTFOLIO_CONFIG = {
     // About Section
     about: {
         paragraph1: "I am a passionate Full-Stack Software Engineer with a strong foundation in modern web development, mobile application development, and emerging technologies. My journey in software engineering began with a deep curiosity for creating innovative solutions that solve real-world problems and enhance user experiences.",
-        paragraph2: "With expertise in both frontend and backend technologies, I specialize in building scalable web applications using ASP.NET Core, React, and modern JavaScript frameworks. My experience extends to mobile development with Android Studio and Java, as well as IoT systems using Python and Cisco technologies. I'm committed to writing clean, maintainable code and following industry best practices for software development.",
+        paragraph2: "With expertise in both frontend and backend technologies, I specialize in building scalable web applications using ASP.NET Core, React, and modern JavaScript frameworks. My experience extends to mobile development with Android Studio and Java. I'm committed to writing clean, maintainable code and following industry best practices for software development.",
         stats: {
             experience: "3+",
             projects: "20+",
@@ -23,10 +23,10 @@ const PORTFOLIO_CONFIG = {
     education: [
         {
             degree: "Bachelor of Information Technology",
-            specialization: "Computer Software Engineering",
-            period: "2023 – 2025 (Final Year)",
+            specialization: "Software Engineering",
+            period: "2023 – 2025 | Completed Cum Laude | Overall Average: 77,48%",
             institution: "Nelson Mandela University - Gqeberha, EC",
-            description: "I am currently pursuing a Bachelor of Information Technology at Nelson Mandela University, where I am developing expertise in software development, networking, cybersecurity, and database management. My studies have provided me with a strong foundation in programming languages, system analysis, and IT infrastructure, enabling me to build secure and efficient digital solutions."
+            description: "Completed a comprehensive IT degree focused on software development, networking, cybersecurity, and databases. Gained hands-on experience through practical labs and projects, developing secure applications and designing databases. Strengthened skills in programming, system analysis, and building efficient digital solutions."
         }
     ],
     
@@ -38,9 +38,10 @@ const PORTFOLIO_CONFIG = {
             date: "Issued Apr 2023"
         },
         {
-            name: "Introduction to IoT and Digital Transformation",
-            issuer: "Cisco",
-            date: "Issued Apr 2023"
+            name: "React.js",
+            issuer: "Udemy",
+            date: "Issued Dec 2025",
+            url: "ude.my/UC-95a56a74-98f6-4391-87f7-f92bc8a0fb8a"
         },
         {
             name: "FNB App Academy 2025",
@@ -87,14 +88,6 @@ const PORTFOLIO_CONFIG = {
             github: "https://github.com/yourusername/android-lms",
             live: "https://your-android-lms.com",
             icon: "fas fa-mobile-alt"
-        },
-        {
-            name: "IoT Access Control & Office Automation System",
-            description: "Developed a TCP server for controlling IoT devices. Designed a Packet Tracer simulation with double-door access control, office lighting/automation, and emergency exit solutions.",
-            technologies: ["Python", "Cisco Packet Tracer", "IoT"],
-            github: "https://github.com/yourusername/iot-system",
-            live: "https://your-iot-system.com",
-            icon: "fas fa-network-wired"
         }
     ],
     
@@ -105,12 +98,11 @@ const PORTFOLIO_CONFIG = {
             { name: "Python", icon: "fab fa-python" },
             { name: "Java", icon: "fab fa-java" },
             { name: "JavaScript", icon: "fab fa-js-square" },
-            { name: "HTML5", icon: "fab fa-html5" },
-            { name: "CSS3", icon: "fab fa-css3-alt" }
+            { name: "SQL", icon: "fas fa-database" }
         ],
         "Frameworks & Libraries": [
             { name: "React", icon: "fab fa-react" },
-            { name: "Node.js", icon: "fab fa-node-js" },
+            { name: "ASP.NET Web APIs", icon: "fab fa-microsoft" },
             { name: ".NET Framework", icon: "fab fa-microsoft" },
             { name: "React-Bootstrap", icon: "fab fa-bootstrap" },
             { name: "Android SDK", icon: "fab fa-android" }
@@ -120,8 +112,7 @@ const PORTFOLIO_CONFIG = {
             { name: "GitHub", icon: "fab fa-github" },
             { name: "Visual Studio", icon: "fas fa-code" },
             { name: "Android Studio", icon: "fab fa-android" },
-            { name: "Cisco Packet Tracer", icon: "fas fa-network-wired" },
-            { name: "SQL", icon: "fas fa-database" }
+            { name: "Microsoft SQL", icon: "fas fa-database" }
         ]
     },
     
