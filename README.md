@@ -21,12 +21,6 @@ This portfolio is designed to highlight technical expertise, academic achievemen
 - Programming: C#, Python, Java, JavaScript, SQL
 - Tools: Visual Studio, GitHub, Android Studio, Microsoft SQL
 
-## Deployment
-
-This portfolio is ready for deployment on any static hosting platform including Netlify, Vercel, or GitHub Pages.
-
----
-
 **Author**: Botshelo Seitshiro | **Year**: 2026
 
 
